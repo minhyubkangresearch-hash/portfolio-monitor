@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-09-05T21:21:53Z",
+  "updated_kst": "2026-09-06 06:21 KST",
+  "market": {
+    "samsung": {
+      "name": "삼성전자",
+      "price": 255500,
+      "change_pct": 2.2,
+      "to_warning": 72500,
+      "to_critical": 85500
+    },
+    "hana": {
+      "name": "하나금융지주",
+      "price": 134300,
+      "change_pct": -3.73,
+      "to_critical": 27300
+    },
+    "kospi": {
+      "name": "코스피",
+      "value": 6687.21,
+      "change_pct": null
+    },
+    "wti": {
+      "name": "WTI 원유",
+      "price": 91.48,
+      "to_warning": -16.48,
+      "to_critical": -11.48
+    },
+    "usdkrw": {
+      "name": "원/달러",
+      "rate": 1349.5,
+      "to_warning": 130.5,
+      "to_critical": 150.5
+    }
+  },
+  "alerts": [
+    {
+      "level": "critical",
+      "target": "WTI",
+      "msg": "[긴급] WTI $91.48 — $80 돌파"
+    }
+  ],
+  "rules": {
+    "samsung_warning": 183000,
+    "samsung_critical": 170000,
+    "hana_critical": 107000,
+    "wti_warning": 75,
+    "wti_critical": 80,
+    "krw_warning": 1480,
+    "krw_critical": 1500
+  }
+}
