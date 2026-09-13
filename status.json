@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-09-13T00:55:07Z",
+  "updated_kst": "2026-09-13 09:55 KST",
+  "market": {
+    "wti": {
+      "name": "WTI 원유",
+      "price": 100.05,
+      "to_warning": -25.05,
+      "to_critical": -20.05
+    },
+    "usdkrw": {
+      "name": "원/달러",
+      "rate": 1341.05,
+      "to_warning": 139.0,
+      "to_critical": 159.0
+    }
+  },
+  "alerts": [
+    {
+      "level": "critical",
+      "target": "WTI",
+      "msg": "[긴급] WTI $100.05 — $80 돌파"
+    }
+  ],
+  "rules": {
+    "samsung_warning": 183000,
+    "samsung_critical": 170000,
+    "hana_critical": 107000,
+    "wti_warning": 75,
+    "wti_critical": 80,
+    "krw_warning": 1480,
+    "krw_critical": 1500
+  }
+}
